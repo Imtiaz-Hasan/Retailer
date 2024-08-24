@@ -2,21 +2,13 @@
 
 namespace Database\Seeders;
 
-// use Illuminate\Database\Console\Seeds\WithoutModelEvents;
-use Illuminate\Database\Seeder;
+use Botble\Base\Supports\BaseSeeder;
+use Database\Seeders\Themes\Main\DatabaseSeeder as MainDatabaseSeeder;
 
-class DatabaseSeeder extends Seeder
+class DatabaseSeeder extends BaseSeeder
 {
-    /**
-     * Seed the application's database.
-     */
     public function run(): void
     {
-        // \App\Models\User::factory(10)->create();
-
-        // \App\Models\User::factory()->create([
-        //     'name' => 'Test User',
-        //     'email' => 'test@example.com',
-        // ]);
+        $this->call(MainDatabaseSeeder::class);
     }
 }
