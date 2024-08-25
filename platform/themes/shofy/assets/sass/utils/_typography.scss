@@ -1,0 +1,20 @@
+// font family
+$font-family: (
+    'ff': (
+        'body': var(--primary-font),
+        'heading': var(--primary-font),
+        'p': var(--primary-font),
+        'jost': var(--primary-font),
+        'fontawesome': '"Font Awesome 6 Pro"',
+        'oregano': "'Oregano', cursive",
+        'charm': "'Charm', cursive",
+    ),
+);
+
+// font size
+$font-size: (
+    'fz': (
+        'body': 14px,
+        'p': 14px,
+    ),
+);

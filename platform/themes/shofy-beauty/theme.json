@@ -1,0 +1,10 @@
+{
+    "id": "botble/shopfy-beauty",
+    "name": "Shofy Beauty",
+    "namespace": "Theme\\ShofyBeauty\\",
+    "author": null,
+    "url": null,
+    "version": "1.0.0",
+    "description": "",
+    "required_plugins": []
+}

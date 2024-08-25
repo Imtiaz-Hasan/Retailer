@@ -1,0 +1,10 @@
+{
+    "id": "botble/shopfy",
+    "name": "Shofy",
+    "namespace": "Theme\\Shofy\\",
+    "author": null,
+    "url": null,
+    "version": "1.0.0",
+    "description": "",
+    "required_plugins": []
+}

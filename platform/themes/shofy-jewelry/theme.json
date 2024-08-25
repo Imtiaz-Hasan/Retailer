@@ -1,0 +1,10 @@
+{
+    "id": "botble/shopfy-jewelry",
+    "name": "Shofy Jewelry",
+    "namespace": "Theme\\ShofyJewelry\\",
+    "author": null,
+    "url": null,
+    "version": "1.0.0",
+    "description": "",
+    "required_plugins": []
+}
